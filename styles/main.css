@@ -10,6 +10,15 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+	background-color: #3F94E7;
+}
+
+p,
+h1 {
+	text-align: center;
+}
+
 
 
 /* HEADER and LOGO STYLES */
@@ -24,4 +33,31 @@ html {
 	display: block;
 	margin: 0 auto;
 	height: 35px;
+}
+
+
+
+/* MAIN STYLES */
+
+main {
+	margin: 0 auto;
+}
+
+
+/* FORM STYLES */
+
+h1 {
+	font-weight: normal;
+	color: #736557;
+}
+
+.signup-form {
+	background-color: #fff;
+	width: 400px;
+	padding: 0 40px;
+	margin: 0 auto;
+}
+
+.signup {
+	border: 0;
 }
