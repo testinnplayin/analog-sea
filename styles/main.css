@@ -69,9 +69,23 @@ h1 {
 	margin-left: -10px;
 }
 
-.input {
+.input,
+.btn {
 	width: 320px;
 	height: 55px;
 	padding: 15px;
+}
+
+.input {
 	border: 2px solid #C0C0C0;
+	margin: 15px 0;
+}
+
+.btn {
+	background-color: #65C470;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	border: 0;
+	margin-top: 15px;
 }
