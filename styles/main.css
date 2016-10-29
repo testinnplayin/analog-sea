@@ -1,0 +1,27 @@
+/* GENERAL STYLES */
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+
+
+/* HEADER and LOGO STYLES */
+
+.logo-container {
+	height: 75px;
+	margin-top: -10px;
+	padding-top: 35px;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	height: 35px;
+}
