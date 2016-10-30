@@ -54,7 +54,8 @@ h1 {
 }
 
 .signup-form,
-.input {
+.input,
+.btn {
 	border-radius: 3px;
 }
 
@@ -89,4 +90,22 @@ h1 {
 	font-size: 18px;
 	border: 0;
 	margin-top: 15px;
+}
+
+.btn-sxn {
+	padding-bottom: 20px;
+}
+
+
+
+/* FORM PSEUDO-CLASSES */
+
+.login a:link,
+.login a:visited {
+	color: #C0C0C0;
+}
+
+.login a:hover,
+.login a:active {
+	color: blue;
 }
