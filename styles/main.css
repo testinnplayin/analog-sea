@@ -100,6 +100,15 @@ h1 {
 
 /* FORM PSEUDO-CLASSES */
 
+.input:hover {
+	background-color: rgba(200, 0, 30, 0.1);
+	border: 2px solid #000;
+}
+
+.input:focus {
+	border: 1px solid blue;
+}
+
 .login a:link,
 .login a:visited {
 	color: #C0C0C0;
