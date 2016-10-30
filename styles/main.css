@@ -118,3 +118,7 @@ h1 {
 .login a:active {
 	color: blue;
 }
+
+.btn:hover {
+	background-color: #006400;
+}
